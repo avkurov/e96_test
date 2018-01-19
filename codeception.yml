@@ -11,6 +11,7 @@ coverage:
     enabled: true
     include:
         - components/*
+        - commands/CountWordsController.php
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
